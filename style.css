@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f7f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url("images/woman-farming.jpg") center/cover no-repeat;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 60px;
+    letter-spacing: 4px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.btn {
+    display: inline-block;
+    background: #2e8b57;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #2e8b57;
+    padding: 12px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* SECTIONS */
+.section {
+    padding: 60px 15%;
+    text-align: center;
+}
+
+.section.light {
+    background-color: #ffffff;
+}
+
+.section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #2e8b57;
+}
+
+/* CARDS */
+.cards {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    font-weight: 500;
+}
+
+/* GALLERY */
+.gallery {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.2);
+}
+
+figcaption {
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+/* CONTACT */
+.contact {
+    background: #2e8b57;
+    color: white;
+}
+
+.contact h2 {
+    color: white;
+}
+
+/* FOOTER */
+footer {
+    background: #1f6b43;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .section {
+        padding: 40px 8%;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+}
